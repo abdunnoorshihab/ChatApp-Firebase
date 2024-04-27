@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "371404196021",
+    "project_id": "chat-application-fahim",
+    "storage_bucket": "chat-application-fahim.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371404196021:android:7f5e6c5a27f0009d5316fc",
+        "android_client_info": {
+          "package_name": "com.example.a2_chat_application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABpWlxBh_GrbOSSpCGP3VfnUFi0MYRp80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
