@@ -1,4 +1,4 @@
-name: a2_chat_application
+name: chat_application
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -19,7 +19,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.3.0 <4.0.0'
+  sdk: '>=3.3.2 <4.0.0'
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -30,22 +30,20 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.6
-  intl: ^0.19.0
-  cloud_firestore: ^4.17.1
-  firebase_auth: ^4.19.3
-  firebase_core: ^2.30.1
-  firebase_storage: ^11.7.3
-  firebase_app_check: ^0.2.2+4
-  line_awesome_flutter: ^2.0.0
-  google_fonts: ^6.2.1
-  image_picker: ^0.8.4+4
-  font_awesome_flutter: ^10.1.0
+  cupertino_icons: ^1.0.2
+  intl: ^0.18.0
+  provider: ^6.0.3
+  loading_animation_widget: ^1.2.0+2
+  font_awesome_flutter: ^10.4.0
+  google_fonts: ^4.0.3
+  cloud_firestore: ^4.0.4
+  firebase_auth: ^4.1.1
+  firebase_core: ^2.1.1
+  firebase_storage: ^11.0.4
+  firebase_app_check: ^0.2.1+12
   random_avatar: ^0.0.8
+  flashy_tab_bar2: ^0.0.10
+  flutter_overlay_loader: ^2.0.0
 
 dev_dependencies:
   flutter_test:
